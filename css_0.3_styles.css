@@ -1,0 +1,140 @@
+/* li, div{
+    color: rgb(20,224,99);
+} */
+
+/* .class{
+    color: rgb(237,240,86);
+} */
+
+
+body{
+    /* background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; */
+    background-attachment: fixed;
+
+     background:#e7e7da ;
+     margin: 0; 
+}
+.nav{
+    background: black;
+    
+}
+.items{
+    background: grey;
+    margin: 0;
+    height: 24px;
+    list-style-type: none;
+    padding-top: 24px;
+    width: 50px;
+    margin-left: auto;
+
+}
+.item{
+    /* background: purple; */
+    display: inline;
+}
+
+.class{
+    /* border-style: solid;
+    border-top-style: dashed ;
+    border-width: 2px;
+    border-color: red; */
+    border: 5px solid green;
+    border-radius: 18px;
+    /* border-radius: 18px;
+    margin-top: 84px; */
+    margin: 50px;
+    padding: 50px;
+    width: 50%;
+    height: 455px;
+    outline:  4px solid black;
+    color: blue;
+    text-align: center;
+    /* word-wrap: none; */
+    /* text-shadow: ; */
+    /* direction: ; */
+    /* top right bottom left  */
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.4w;
+
+}
+
+.class{
+    /* text-decoration: line line-through; */
+
+    text-transform: capitalize;
+    /* letter-spacing: 3px; */
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: white;
+    margin: 0 16px;
+    font-size: 1.5vw;
+}
+a.hover{
+    background-color: skyblue;
+    color: black;
+    font-size: 2.5em;
+}
+a:active{
+    font-size: 1.5px;
+}
+
+a.class2{
+    visibility: hidden;
+    display: none;
+}
+
+/* #box{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} */
+.container{
+   width: 100%;
+   height: 50%;
+   padding: 5px;
+   border: 3px solid black;
+   box-sizing: border-box;
+}
+
+.first{
+    background: red;
+    height: 45px;
+    width: 50%;
+    display: inline-block;
+    /* float: left; */
+}
+
+
+.second{
+    background: blue;
+    height: 45px;
+    width: 30%;
+}
+
+.myflex{
+    background: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: baseline;
+}
+
+.myflex > div{
+   background: red;
+   width: 80px;
+   height: 80px;
+   font-size: 25px;
+   margin: 8px;
+}
+
+
