@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .progress{
+            background-color:  red;
+            height: 3px;
+            animation: load 1s ease-in-out delay 1;
+
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 122px;
+            background-color: black;
+        }
+        main{
+            height: 899px;
+            background-color: blue;
+        }
+        @keyframes load {
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 40vw;
+            }
+            100%{
+                width: 100vw;
+            }
+            
+        }
+        @keyframes slide1{
+            0%{
+                transform: rotate(0deg);
+            }
+            
+            100%{
+                transform: rotate(85deg);
+            }
+            
+        }
+        @keyframes slide2{
+            0%{
+                transform: rotate(0deg);
+            }
+            
+            100%{
+                transform: rotate(92deg);
+            }
+        image{
+            animation: rotate 1s ease-in infinite;
+            } 
+       }
+        .slider{
+            background-color: aqua;
+            height: 120px;
+            width: 100px;
+            overflow: hidden;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        img1{
+            transform: translate(8vw);
+            animation: slide1 1s 2s forwards;
+        }
+        img2{
+            transform: translate(0vw);
+            animation: slide1 1s 2s forwards;
+        }
+        img3{
+            transform: translate(-8vw);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header></header>
+    <main>
+      <img class="img1" src="https://source.unsplash.com/960x520/?nature,water" alt="">
+      <img class="img2" src="https://source.unsplash.com/960x520/?nature,water" alt="">
+      <img class="img3" src="https://source.unsplash.com/960x520/?nature,water" alt="">
+    </main>
+    
+</body>
+</html>
